@@ -11,7 +11,7 @@
 
 //CODE HERE
 
-let gitDefinition = 'Git is a verion control system which means it tracks the changes made to a file. '
+let gitDefinition = 'Git is a verion control system which means it tracks the changes made to a file.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -40,10 +40,8 @@ let gitHubDefinition = 'GitHub is a cloud-based Git repository hosting service. 
 //CODE HERE
 
 const init = {
-    description: 'Initialize a repository', 
-    code: '$ git init'}
-
-// console.log(init)
+    description: 'Initialize a local repository', 
+    code: '$ git init' }
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -54,11 +52,11 @@ const init = {
 //CODE HERE
 
 const clone = {
-    description: 'Download a repository onto machine (local)', 
-    code: '$ git clone REPO_URL'}
+    description: 'Download a repository onto local machine', 
+    code: '$ git clone REPO_URL'
 }
-
-//////////////////PROBLEM 5////////////////////
+    
+//////////////////PROBL{EM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
     following the guidelines above to describe the status command.
@@ -69,9 +67,8 @@ const clone = {
 const status = {
     description: 'Displays the state of the working directory and staging area to see which changes have been staged', 
     code: '$ git status'}
-}
 
-//////////////////PROBLEM 6////////////////////
+// //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
@@ -82,7 +79,6 @@ const status = {
 const add = {
     description: 'Adds a change in the working directory to the staging area so it will be included in the next commit', 
     code: '$ git add'}
-}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -93,9 +89,8 @@ const add = {
 //CODE HERE
 
 const commit = {
-    description: '', 
+    description: 'Captures a snapshot of the currently staged changes', 
     code: '$ git commit'}
-}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -108,4 +103,3 @@ const commit = {
 const push = {
     description: 'Upload local repository to GitHub', 
     code: '$ git push REPO_NAME'}
-}
