@@ -8,7 +8,6 @@ const faveColors = ['red', 'green', 'black']
 let colorCopy = faveColors.slice(0,3)
 
 // From my understanding the first argument is the starting indices and the second is the ending indices, however when I had (0,2) the console only logged the first two indices, so I changed it to (0,3) to copy the whole array
-// console.log(colorCopy)
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -16,7 +15,6 @@ let colorCopy = faveColors.slice(0,3)
 //CODE HERE
 
 colorCopy.push('purple')
-// console.log(colorCopy)
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -29,7 +27,6 @@ const numbers = [1, 2, 3, 4, 5]
 //CODE HERE
 
 let middleNums = numbers.splice(1,3)
-// console.log(middleNums)
 
 //////////////////PROBLEM 4////////////////////
 /* 
