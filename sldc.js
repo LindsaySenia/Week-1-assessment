@@ -32,3 +32,4 @@ let design = 'Formalizing the plans from previous steps through research & devel
 let implementation = 'Software Engineers write the code for the software that was planned in previous steps. Also setting up infrastructure and creating documentation.'
 let testingAndIntegration = 'Quality Assurance engineers try to break the software and make sure it is effective.'
 let maintain = 'Push out updates and bug fixes. Could be repeating previous steps.'
+
