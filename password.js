@@ -13,12 +13,38 @@ const reader = readline.createInterface({
 reader.question('What is your password?', function(input){
     password = input
     if(password.length >= 10){
-        console.log('Success! Your password is long enough.')
+        console.log(`
+        ███████╗██╗   ██╗ ██████╗ ██████╗███████╗███████╗███████╗
+        ██╔════╝██║   ██║██╔════╝██╔════╝██╔════╝██╔════╝██╔════╝
+        ███████╗██║   ██║██║     ██║     █████╗  ███████╗███████╗
+        ╚════██║██║   ██║██║     ██║     ██╔══╝  ╚════██║╚════██║
+        ███████║╚██████╔╝╚██████╗╚██████╗███████╗███████║███████║
+        ╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝╚══════╝╚══════╝╚══════╝
+        
+                     Your password is long enough.`)
     } else {
-        console.log('Failed. Your password is not long enough.')
+        console.log(`
+          █████▒▄▄▄       ██▓ ██▓     █    ██  ██▀███  ▓█████ 
+        ▓██   ▒▒████▄    ▓██▒▓██▒     ██  ▓██▒▓██ ▒ ██▒▓█   ▀ 
+        ▒████ ░▒██  ▀█▄  ▒██▒▒██░    ▓██  ▒██░▓██ ░▄█ ▒▒███   
+        ░▓█▒  ░░██▄▄▄▄██ ░██░▒██░    ▓▓█  ░██░▒██▀▀█▄  ▒▓█  ▄ 
+        ░▒█░    ▓█   ▓██▒░██░░██████▒▒▒█████▓ ░██▓ ▒██▒░▒████▒
+         ▒ ░    ▒▒   ▓▒█░░▓  ░ ▒░▓  ░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░░░ ▒░ ░
+         ░       ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░░░▒░ ░ ░   ░▒ ░ ▒░ ░ ░  ░
+         ░ ░     ░   ▒    ▒ ░  ░ ░    ░░░ ░ ░   ░░   ░    ░   
+                     ░  ░ ░      ░  ░   ░        ░        ░  ░
+                                                              
+                   Your password is not long enough.`)
     };
 
-    reader.close();
+    console.log(`
+                           +-+-+-+-+-+ +-+-+-+ 
+                           |T|h|a|n|k| |y|o|u| 
+                          +-+-+-+-+++-+-+-+-+-+
+                          |C|o|m|e| |a|g|a|i|n|
+                          +-+-+-+-+ +-+-+-+-+-+`);
+
+  reader.close();
 });
 
     // for(i = 0; i < password.length; i++) {
