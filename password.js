@@ -37,6 +37,16 @@ reader.question('What is your password?', function(input){
                    Your password is not long enough.`)
     };
 
+    // let letterArr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+    // for(i = 0; i < letterArr.length; i++){
+    //     if(password.includes([i])){
+    //         console.log('Password includes a capital letter.')
+    //     } else {
+    //         console.log('Password does not contain a capital letter.')}
+
+    // }
+
     console.log(`
                            +-+-+-+-+-+ +-+-+-+ 
                            |T|h|a|n|k| |y|o|u| 
